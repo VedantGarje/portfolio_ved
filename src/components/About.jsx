@@ -4,7 +4,7 @@ export default function About({ isActive }) {
   return (
     <article className={`about ${isActive ? 'active' : ''}`} data-page="about">
       <header>
-        <h2 className="h2 article-title">About me</h2>
+        <h2 className="h2 article-title">About me!</h2>
       </header>
 
       <section className="about-text">
@@ -62,7 +62,6 @@ export default function About({ isActive }) {
           </li>
         </ul>
       </section>
-
 
     </article>
   )
